@@ -67,6 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ui\assets\books\b1.jpg" />
+    <Content Include="ui\assets\books\b2.jpg" />
+    <Content Include="ui\assets\books\b3.jpg" />
+    <Content Include="ui\assets\books\b4.jpg" />
+    <Content Include="ui\assets\books\b5.jpg" />
+    <Content Include="ui\assets\images\adminuser.png" />
+    <Content Include="ui\assets\images\book-online.png" />
+    <Content Include="ui\assets\images\books.png" />
+    <Content Include="ui\assets\images\books1.png" />
+    <Content Include="ui\assets\images\defaulters-list.png" />
+    <Content Include="ui\assets\images\digital-data.png" />
+    <Content Include="ui\assets\images\digital-inventory.png" />
+    <Content Include="ui\assets\images\generaluser.png" />
+    <Content Include="ui\assets\images\home-bg.jpg" />
+    <Content Include="ui\assets\images\in-homepage-banner.jpg" />
+    <Content Include="ui\assets\images\library.png" />
+    <Content Include="ui\assets\images\publisher.png" />
+    <Content Include="ui\assets\images\search-online.png" />
+    <Content Include="ui\assets\images\sign-up.png" />
+    <Content Include="ui\assets\images\writer.png" />
     <Content Include="ui\bootstrap\css\bootstrap.min.css" />
     <Content Include="ui\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="ui\bootstrap\js\jquery-3.7.1.slim.min.js" />
@@ -5727,6 +5747,7 @@
     <Content Include="ui\fontawesome\svgs\solid\z.svg" />
     <Content Include="ui\fontawesome\svgs\solid\zap.svg" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MasterPage.Master.cs">
@@ -5737,6 +5758,13 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ui\fontawesome\metadata\categories.yml" />
@@ -5780,9 +5808,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ui\assets\images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
