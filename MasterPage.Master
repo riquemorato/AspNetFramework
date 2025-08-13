@@ -5,12 +5,17 @@
 <html lang="pt-br">
 <head runat="server">
     <title>Biblioteca Virtual</title>
-        <!-- CSS Libraries -->
-        <link href="~/ui/bootstrap/css/bootstrap.min.css" rel="stylesheet" runat="server" />
-        <link href="~/ui/datatables/css/dataTables.dataTables.min.css" rel="stylesheet" />
-        <link href="~/ui/fontawesome/css/all.css" rel="stylesheet" />
-        <!-- JS Libraries -->
-        <script src="~/ui/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- CSS Libraries -->
+    <link href="~/ui/bootstrap/css/bootstrap.min.css" rel="stylesheet" runat="server" />
+    <link href="~/ui/datatables/css/dataTables.dataTables.min.css" rel="stylesheet" runat="server" />
+    <link href="~/ui/fontawesome/css/all.css" rel="stylesheet" runat="server" />
+
+    <!-- Custom CSS -->
+    <link href="~/ui/css/customstylesheet.css" rel="stylesheet" runat="server" />
+
+    <!-- JS Libraries -->
+    <script src="~/ui/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -29,10 +34,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- navigation bar --> 
+                <!-- navigation bar -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item active"> 
+                        <li class="nav-item active">
                             <a class="nav-link" aria-current="page" href="homepage.aspx">Home</a>
                         </li>
                         <li class="nav-item active">
@@ -45,27 +50,27 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <asp:LinkButton CssClass ="nav-link" ID="ViewBooksButton" runat="server">
+                            <asp:LinkButton CssClass="nav-link" ID="ViewBooksButton" runat="server">
                                 <!-- OnClick ="ViewBooksButton_Click">View Books --></asp:LinkButton>
                         </li>
 
                         <li class="nav-item active">
-                            <asp:LinkButton CssClass ="nav-link" ID="UserLoginButton" runat="server">
+                            <asp:LinkButton CssClass="nav-link" ID="UserLoginButton" runat="server">
                                 <!-- OnClick ="UserLoginButton_Click">User Login --></asp:LinkButton>
                         </li>
 
                         <li class="nav-item active">
-                            <asp:LinkButton CssClass ="nav-link" ID="SignUpButton" runat="server">
+                            <asp:LinkButton CssClass="nav-link" ID="SignUpButton" runat="server">
                                 <!-- OnClick ="SignUpButton_Click">Sign Up --></asp:LinkButton>
                         </li>
 
                         <li class="nav-item active">
-                            <asp:LinkButton CssClass ="nav-link" ID="LogOutButton" runat="server">
+                            <asp:LinkButton CssClass="nav-link" ID="LogOutButton" runat="server">
                                 <!-- OnClick ="LogOutButton_Click">Log out --></asp:LinkButton>
                         </li>
 
                         <li class="nav-item active">
-                            <asp:LinkButton CssClass ="nav-link" ID="HelloUserButton" runat="server">
+                            <asp:LinkButton CssClass="nav-link" ID="HelloUserButton" runat="server">
                                 <!-- OnClick ="HelloUser_Click">Hello User--></asp:LinkButton>
                         </li>
                     </ul>
@@ -82,22 +87,29 @@
         <!-- footer -->
         <footer>
             <div id="footer1" class="container-fluid">
-                <div class ="row">
+                <div class="row">
                     <div class="col-sm-12 col-md-12 text-center">
                         <p>
-                            <asp:LinkButton CssClass = "footerlinks" ID="AdminLoginButton" runat="server">Admin Login</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="AdminLoginButton" runat="server">Admin Login</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass = "footerlinks" ID="AuthorManagementButton" runat="server">Author Management</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="AuthorManagementButton" runat="server">Author Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass = "footerlinks" ID="PublishermanagementButton" runat="server">Publisher Management</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="PublishermanagementButton" runat="server">Publisher Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass = "footerlinks" ID="BookInventoryButton" runat="server">Book Inventory</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="BookInventoryButton" runat="server">Book Inventory</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass = "footerlinks" ID="BookIssuingButton" runat="server">Book Issuing</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="BookIssuingButton" runat="server">Book Issuing</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass = "footerlinks" ID="MemberManagementButton" runat="server">Member Management</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="MemberManagementButton" runat="server">Member Management</asp:LinkButton>
                             &nbsp;
                         </p>
+                    </div>
+                </div>
+            </div>
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color:whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">Oliver's Software Development Inc.</a></p>
                     </div>
                 </div>
             </div>

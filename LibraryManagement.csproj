@@ -91,6 +91,7 @@
     <Content Include="ui\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="ui\bootstrap\js\jquery-3.7.1.slim.min.js" />
     <Content Include="ui\bootstrap\js\popper.min.js" />
+    <Content Include="ui\css\customstylesheet.css" />
     <Content Include="ui\datatables\css\dataTables.dataTables.min.css" />
     <Content Include="ui\datatables\js\dataTables.min.js" />
     <Content Include="ui\fontawesome\css\all.css" />
