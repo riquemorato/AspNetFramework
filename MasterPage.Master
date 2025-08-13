@@ -18,6 +18,7 @@
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -92,15 +93,15 @@
                         <p>
                             <asp:LinkButton CssClass="footerlinks" ID="AdminLoginButton" runat="server">Admin Login</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass="footerlinks" ID="AuthorManagementButton" runat="server">Author Management</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="AuthorManagementButton" runat="server">Gestão de Autores</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass="footerlinks" ID="PublishermanagementButton" runat="server">Publisher Management</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="PublishermanagementButton" runat="server">Gestão de Editoras</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass="footerlinks" ID="BookInventoryButton" runat="server">Book Inventory</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="BookInventoryButton" runat="server">Inventário de Livros</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass="footerlinks" ID="BookIssuingButton" runat="server">Book Issuing</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="BookIssuingButton" runat="server">Empréstimos de Livros</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton CssClass="footerlinks" ID="MemberManagementButton" runat="server">Member Management</asp:LinkButton>
+                            <asp:LinkButton CssClass="footerlinks" ID="MemberManagementButton" runat="server">Gestão de Membros</asp:LinkButton>
                             &nbsp;
                         </p>
                     </div>
