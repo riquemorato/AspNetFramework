@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="LibraryManagement.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    <!-- CSS Libraries -->
+        <link href="ui/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="ui/datatables/css/dataTables.dataTables.min.css" rel="stylesheet" /> 
+        <link href="ui/fontawesome/css/all.css" rel="stylesheet" /> 
+    <!-- JS Libraries -->
+        <script src="ui/bootstrap/js/jquery-3.7.1.slim.min.js"></script> 
+        <script src="ui/bootstrap/js/popper.min.js"></script> 
+        <script src="ui/bootstrap/js/bootstrap.bundle.min.js"></script> 
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class ="navbar navbar-expand-lg navbar-light">
+
+            </nav>
+        </div>
+    </form>
+</body>
+</html>
