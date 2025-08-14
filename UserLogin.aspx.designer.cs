@@ -11,7 +11,7 @@ namespace LibraryManagement
 {
 
 
-    public partial class AdminLogin1
+    public partial class AdminLogin
     {
 
         /// <summary>
@@ -40,5 +40,14 @@ namespace LibraryManagement
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button LoginButton;
+
+        /// <summary>
+        /// SignUpButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SignUpButton;
     }
 }
