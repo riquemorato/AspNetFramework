@@ -1,6 +1,6 @@
 ﻿.footerlinks {
     color : #fff;
-    text-decoration : nome !important;
+    text-decoration : none !important;
 }
 
     .footerlinks:hover {
@@ -8,9 +8,10 @@
     }
 
 #footer1 {
-    background : #762b00;
+    background: #762b00;
 }
 
 #footer2 {
-    background : #531f00;
+
+    background: #531f00;
 }

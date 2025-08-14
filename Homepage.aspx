@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Homepage" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Homepage.aspx.cs" Inherits="LibraryManagement.Homepage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!-- keep this empty -->
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
