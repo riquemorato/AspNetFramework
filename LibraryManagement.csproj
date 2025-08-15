@@ -70,6 +70,7 @@
     <Content Include="Admin_Login.aspx" />
     <Content Include="Admin_GerenciamentoAutores.aspx" />
     <Content Include="Admin_GerenciamentoEditoras.aspx" />
+    <Content Include="ControleInventario.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="Homepage.aspx" />
     <Content Include="ui\assets\books\b1.jpg" />
@@ -5778,6 +5779,13 @@
     </Compile>
     <Compile Include="Admin_GerenciamentoEditoras.aspx.designer.cs">
       <DependentUpon>Admin_GerenciamentoEditoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControleInventario.aspx.cs">
+      <DependentUpon>ControleInventario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControleInventario.aspx.designer.cs">
+      <DependentUpon>ControleInventario.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserLogin.aspx.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
