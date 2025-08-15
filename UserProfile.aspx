@@ -1,12 +1,16 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="UserSignUp.aspx.cs" Inherits="LibraryManagement.UserSignUp" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="UserProfile.aspx.cs" Inherits="LibraryManagement.UserProfile" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+
+
     <div class="container-fluid">
+
         <div class="row">
-            <div class="col-md-6 mx-auto">
+            <!-- PROFILE -->
+            <div class="col-md-5 ">
                 <!-- login card -->
                 <div class="card">
                     <div class="card-body">
@@ -20,7 +24,9 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Cadastro de Usuários</h3>
+                                    <h3>Seu Perfil</h3>
+                                    <span>Estado da conta: </span>
+                                    <asp:Label CssClass="badge badge-pill badge-info" ID="StatusLabel" runat="server" Text="Seu Status"></asp:Label>
                                 </center>
                             </div>
                         </div>
@@ -146,37 +152,91 @@
                         </div>
 
                         <!-- Credenciais de Login -->
-                        <div class="col-md-6">
-                            <label>Identificação do Usuário</label>
-                            <div class="form-group">
-                                <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server" placeholder="Identificação do Usuário"></asp:TextBox>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>Identificação do Usuário</label>
+                                <div class="form-group">
+                                    <asp:TextBox CssClass="form-control" ID="IDUsuario" runat="server" placeholder="Identificação do Usuário" ReadOnly="True"></asp:TextBox>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label>Senha Atual</label>
+                                <div class="form-group">
+                                    <asp:TextBox CssClass="form-control" ID="SenhaAtual" runat="server" placeholder="Senha Atual" TextMode="Password" ReadOnly="True"></asp:TextBox>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label>Nova Senha</label>
+                                <div class="form-group">
+                                    <asp:TextBox CssClass="form-control" ID="NovaSenha" runat="server" placeholder="Nova senha" TextMode="Password"></asp:TextBox>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6 mb-4">
-                            <label>Senha</label>
-                            <div class="form-group">
-                                <asp:TextBox CssClass="form-control" ID="TextBox6" runat="server" placeholder="Senha" TextMode="Password"></asp:TextBox>
+
+                        <div class="row">
+                            <div class="col mb-4">
+                                <center>
+                                    <div class="form-group d-grid gap-2 mt-4">
+                                        <asp:Button CssClass="btn btn-success btn-block btn-lg" type="button" ID="UpdateDataButton" runat="server" Text="Atualizar" />
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- HISTÓRICO -->
+            <div class="col-md-7">
+
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <img width="100" src="ui/assets/images/books1.png" />
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <h3>Histório de Empréstimos</h3>
+                                    <span>Status de Empréstimos: </span>
+                                    <asp:Label CssClass="badge badge-pill badge-info" ID="Label2" runat="server" Text="Seu Status"></asp:Label>
+                                </center>
+                            </div>
+                        </div>
+
+                        <!-- Divider -->
+                        <div class="row">
+                            <div class="col">
+                                <hr />
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col mb-4">
-                                <div class="form-group d-grid gap-2">
-                                    <asp:Button CssClass="btn btn-primary btn-block btn-lg" type="button" ID="UserSignUpButton" runat="server" Text="Cadastrar" />
-
-                                </div>
+                            <div class="col">
+                                <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server"></asp:GridView>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-
-    <!-- back homepage -->
-    <a href="Homepage.aspx">&larr; Voltar para Homepage</a><br />
-    <br />
+    </div>
+    <div>
+        <!-- back homepage -->
+        <a href="Homepage.aspx">&larr; Voltar para Homepage</a><br />
+        <br />
 
     </div>
+
+
+
 </asp:Content>

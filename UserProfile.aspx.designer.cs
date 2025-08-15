@@ -11,8 +11,17 @@ namespace LibraryManagement
 {
 
 
-    public partial class UserSignUp
+    public partial class UserProfile
     {
+
+        /// <summary>
+        /// StatusLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label StatusLabel;
 
         /// <summary>
         /// FullNameTextBox control.
@@ -87,30 +96,57 @@ namespace LibraryManagement
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
 
         /// <summary>
-        /// TextBox4 control.
+        /// IDUsuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox IDUsuario;
 
         /// <summary>
-        /// TextBox6 control.
+        /// SenhaAtual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox SenhaAtual;
 
         /// <summary>
-        /// UserSignUpButton control.
+        /// NovaSenha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button UserSignUpButton;
+        protected global::System.Web.UI.WebControls.TextBox NovaSenha;
+
+        /// <summary>
+        /// UpdateDataButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button UpdateDataButton;
+
+        /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
+        /// GridView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

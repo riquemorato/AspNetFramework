@@ -109,7 +109,7 @@
             </div>
             <div id="footer2" class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center align-content-center">
                         <p style="color:whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">Oliver's Software Development Inc.</a></p>
                     </div>
                 </div>

@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminLogin.aspx" />
+    <Content Include="Admin_Login.aspx" />
+    <Content Include="Admin_GerenciamentoAutores.aspx" />
+    <Content Include="Admin_GerenciamentoEditoras.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="Homepage.aspx" />
     <Content Include="ui\assets\books\b1.jpg" />
@@ -5750,17 +5752,32 @@
     <Content Include="ui\fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="ui\fontawesome\svgs\solid\z.svg" />
     <Content Include="ui\fontawesome\svgs\solid\zap.svg" />
+    <Content Include="UserProfile.aspx" />
     <Content Include="UserSignUp.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminLogin.aspx.cs">
-      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    <Compile Include="Admin_Login.aspx.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminLogin.aspx.designer.cs">
-      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    <Compile Include="Admin_Login.aspx.designer.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_GerenciamentoAutores.aspx.cs">
+      <DependentUpon>Admin_GerenciamentoAutores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_GerenciamentoAutores.aspx.designer.cs">
+      <DependentUpon>Admin_GerenciamentoAutores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_GerenciamentoEditoras.aspx.cs">
+      <DependentUpon>Admin_GerenciamentoEditoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_GerenciamentoEditoras.aspx.designer.cs">
+      <DependentUpon>Admin_GerenciamentoEditoras.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserLogin.aspx.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
@@ -5784,6 +5801,13 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserSignUp.aspx.cs">
       <DependentUpon>UserSignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
