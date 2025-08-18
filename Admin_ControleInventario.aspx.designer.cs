@@ -15,93 +15,93 @@ namespace LibraryManagement
     {
 
         /// <summary>
-        /// IdUsuarioTextBox control.
+        /// ConsultaCodigoMembro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox IdUsuarioTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ConsultaCodigoMembro;
 
         /// <summary>
-        /// TextBox2 control.
+        /// SearchIdTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox SearchIdTextBox;
 
         /// <summary>
-        /// TextBox3 control.
+        /// SearchIdButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.Button SearchIdButton;
 
         /// <summary>
-        /// Button4 control.
+        /// ConsultaNomeUsuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
+        protected global::System.Web.UI.WebControls.TextBox ConsultaNomeUsuario;
 
         /// <summary>
-        /// TextBox1 control.
+        /// ConsultaNomeLivro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox ConsultaNomeLivro;
 
         /// <summary>
-        /// Button3 control.
+        /// DataRetiradaTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.TextBox DataRetiradaTextBox;
 
         /// <summary>
-        /// AuthorNameTextBox control.
+        /// DataDevolucaoTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AuthorNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox DataDevolucaoTextBox;
 
         /// <summary>
-        /// DeletarAutorButton control.
+        /// EmprestarLivroButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DeletarAutorButton;
+        protected global::System.Web.UI.WebControls.Button EmprestarLivroButton;
 
         /// <summary>
-        /// Button1 control.
+        /// DevolverLivroButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button DevolverLivroButton;
 
         /// <summary>
-        /// Button2 control.
+        /// HistoricoEmprestimosGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.GridView HistoricoEmprestimosGridView;
     }
 }
