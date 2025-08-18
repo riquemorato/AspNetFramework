@@ -137,7 +137,7 @@
 
                             <div class="row">
                                 <div class="col">
-                                    <asp:GridView CssClass="table table-striped table-bordered"  ID ="HistoricoEmprestimosGridView" runat="server"></asp:GridView>
+                                    <asp:GridView CssClass="table table-striped table-bordered" ID="HistoricoEmprestimosGridView" runat="server"></asp:GridView>
                                 </div>
                             </div>
 

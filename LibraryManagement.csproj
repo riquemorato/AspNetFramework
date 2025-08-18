@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin_GerenciamentoUsuarios.aspx" />
     <Content Include="Admin_Login.aspx" />
     <Content Include="Admin_GerenciamentoAutores.aspx" />
     <Content Include="Admin_GerenciamentoEditoras.aspx" />
@@ -5759,6 +5760,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_GerenciamentoUsuarios.aspx.cs">
+      <DependentUpon>Admin_GerenciamentoUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_GerenciamentoUsuarios.aspx.designer.cs">
+      <DependentUpon>Admin_GerenciamentoUsuarios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin_Login.aspx.cs">
       <DependentUpon>Admin_Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
